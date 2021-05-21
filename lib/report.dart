@@ -13,6 +13,7 @@ class Report extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Air bus Report',
+      color: Color(0xFF083386),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
@@ -119,6 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFF083386),
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
@@ -144,7 +146,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: show,
                     textColor: Colors.white,
                     child: Text('Invoke'),
-                    color: Colors.lightBlue),
+                    color: Color(0xFF083386)),
               ),
               Container(
                 width: double.infinity,
@@ -154,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: sendBugReport,
                     textColor: Colors.white,
                     child: Text('Send Bug Report'),
-                    color: Colors.lightBlue),
+                    color: Color(0xFF083386)),
               ),
               Container(
                 width: double.infinity,
@@ -164,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: showFeatureRequests,
                     textColor: Colors.white,
                     child: Text('Show Feature Requests'),
-                    color: Colors.lightBlue),
+                    color: Color(0xFF083386)),
               ),
               Container(
                 width: double.infinity,
@@ -174,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: askQuestion,
                     textColor: Colors.white,
                     child: Text('Ask a Question'),
-                    color: Colors.lightBlue),
+                    color: Color(0xFF083386)),
               ),
               Container(
                 width: double.infinity,
@@ -184,7 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: sendFeedback,
                     textColor: Colors.white,
                     child: Text('Send Feedback'),
-                    color: Colors.lightBlue),
+                    color: Color(0xFF083386)),
               ),
             ],
           )), // This trailing comma makes auto-formatting nicer for build methods.

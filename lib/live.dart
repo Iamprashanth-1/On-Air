@@ -11,6 +11,7 @@ class MyApps extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'LiveChat',
+      color: Color(0xFF083386),
       home: Support(),
     );
   }
@@ -58,13 +59,13 @@ class _SupportState extends State<Support> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFF083386),
         iconTheme: IconThemeData(color: Colors.black),
         centerTitle: true,
         elevation: 0.0,
         title: Text(
           "Support",
-          style: TextStyle(fontSize: 18, color: Colors.black),
+          style: TextStyle(fontSize: 23, color: Colors.white),
         ),
       ),
       body: Container(
@@ -132,18 +133,19 @@ class _SupportState extends State<Support> {
                 SizedBox(
                   height: 10,
                 ),
-                CustomButton(
-                  onPress: () {
-                    Livechat.beginChat(
-                        licenseNoTextController.text,
-                        groupIdTextController.text,
-                        visitorNameTextController.text,
-                        visitorEmailTextController.text);
-                  },
-                  title: "Start Live Chat",
-                ),
+                FlatButton(
+                    onPressed: () {
+                      Livechat.beginChat(
+                          licenseNoTextController.text,
+                          groupIdTextController.text,
+                          visitorNameTextController.text,
+                          visitorEmailTextController.text);
+                    },
+                    child: Text("Start Live Chat",
+                        style: TextStyle(color: Color(0xFFF1F3F7))),
+                    color: Color(0xFF083386)),
                 // Spacer(),
-                Text('Running on: $_platformVersion\n'),
+                //Text('Running on: $_platformVersion\n'),
               ],
             ),
           ),

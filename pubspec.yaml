@@ -36,6 +36,7 @@ dependencies:
   app_usage: ^2.0.0
   usage_stats: ^0.1.0
   instabug_flutter: ^9.1.9
+  flutter_arc_speed_dial: ^2.0.0
   
 
 dev_dependencies:

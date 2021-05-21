@@ -7,6 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      color: Color(0xFF083386),
       title: 'Air chatbot',
       theme: new ThemeData(
         primarySwatch: Colors.deepOrange,
@@ -92,9 +93,9 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        centerTitle: true,
-        title: new Text("Air Chat bot"),
-      ),
+          centerTitle: true,
+          title: new Text("Air Chat bot"),
+          backgroundColor: Color(0xFF083386)),
       body: new Column(children: <Widget>[
         new Flexible(
             child: new ListView.builder(
