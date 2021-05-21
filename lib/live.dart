@@ -64,7 +64,7 @@ class _SupportState extends State<Support> {
         centerTitle: true,
         elevation: 0.0,
         title: Text(
-          "Support",
+          " Konnex Live Support",
           style: TextStyle(fontSize: 23, color: Colors.white),
         ),
       ),
@@ -79,6 +79,7 @@ class _SupportState extends State<Support> {
                   child: Text(
                     "Number",
                     textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 TextFormField(
@@ -96,6 +97,7 @@ class _SupportState extends State<Support> {
                   child: Text(
                     "Id",
                     textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 TextFormField(
@@ -110,6 +112,7 @@ class _SupportState extends State<Support> {
                   child: Text(
                     "Name",
                     textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 TextFormField(
@@ -124,6 +127,7 @@ class _SupportState extends State<Support> {
                   child: Text(
                     "Email",
                     textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 TextFormField(

@@ -134,8 +134,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: const EdgeInsets.only(
                     left: 20.0, right: 20.0, bottom: 20.0),
                 child: Text(
-                  'welcome to Air Reporting System',
+                  'Welcome to Air Reporting System',
                   textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 30, color: Colors.black),
                 ),
               ),
               Container(

@@ -29,13 +29,19 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   bubble_overlay: ^0.2.0
+  flutter_speed_dial: ^3.0.5
+  dependencies:
+  fab_circular_menu: ^1.0.2
+  floating_action_bubble: ^1.1.2
   http: ^0.11.3+16
+  animated_float_action_button: ^1.0.3
   floaty_head: ^1.0.0
   livechatt: "^1.2.0"
   flutter_dialogflow: ^0.1.0
   app_usage: ^2.0.0
   usage_stats: ^0.1.0
   instabug_flutter: ^9.1.9
+  draggable_fab: ^0.1.1
   flutter_arc_speed_dial: ^2.0.0
   
 

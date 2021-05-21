@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       color: Color(0xFF083386),
-      title: 'Air chatbot',
+      title: 'Konnex Chatbot',
       theme: new ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
@@ -94,7 +94,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     return new Scaffold(
       appBar: new AppBar(
           centerTitle: true,
-          title: new Text("Air Chat bot"),
+          title: new Text("Konnex Chat bot"),
           backgroundColor: Color(0xFF083386)),
       body: new Column(children: <Widget>[
         new Flexible(

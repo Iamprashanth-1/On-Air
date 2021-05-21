@@ -34,7 +34,13 @@ class _MyAppState extends State<Usage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Air Usage Stats"),
+          title: Text(
+            "Konnex Usage Stats",
+            style: TextStyle(fontSize: 25),
+            textAlign: TextAlign.center,
+          ),
+          backgroundColor: Color(0xFF083386),
+          toolbarHeight: 66,
         ),
         body: Container(
             child: ListView.separated(
